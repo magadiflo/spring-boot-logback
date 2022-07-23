@@ -1,15 +1,37 @@
-[2022-07-23 00:21:12,815] [background-preinit] [34mINFO [0;39m org.hibernate.validator.internal.util.Version                : HV000001: Hibernate Validator 6.2.2.Final 
-[2022-07-23 00:21:12,815] [restartedMain] [34mINFO [0;39m c.b.s.backend.apirest.SpringBootBackendApirestApplication    : Starting SpringBootBackendApirestApplication using Java 16.0.2 on DESKTOP-EGDL8Q6 with PID 14568 (M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback\target\classes started by USUARIO in M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback) 
-[2022-07-23 00:21:12,818] [restartedMain] [34mINFO [0;39m c.b.s.backend.apirest.SpringBootBackendApirestApplication    : No active profile set, falling back to 1 default profile: "default" 
-[2022-07-23 00:21:12,858] [restartedMain] [34mINFO [0;39m o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
-[2022-07-23 00:21:12,859] [restartedMain] [34mINFO [0;39m o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
-[2022-07-23 00:21:13,530] [restartedMain] [34mINFO [0;39m o.s.data.repository.config.RepositoryConfigurationDelegate   : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
-[2022-07-23 00:21:13,573] [restartedMain] [34mINFO [0;39m o.s.data.repository.config.RepositoryConfigurationDelegate   : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces. 
-[2022-07-23 00:21:14,222] [restartedMain] [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
-[2022-07-23 00:21:14,231] [restartedMain] [34mINFO [0;39m org.apache.coyote.http11.Http11NioProtocol                   : Initializing ProtocolHandler ["http-nio-8080"] 
-[2022-07-23 00:21:14,232] [restartedMain] [34mINFO [0;39m org.apache.catalina.core.StandardService                     : Starting service [Tomcat] 
-[2022-07-23 00:21:14,232] [restartedMain] [34mINFO [0;39m org.apache.catalina.core.StandardEngine                      : Starting Servlet engine: [Apache Tomcat/9.0.58] 
-[2022-07-23 00:21:14,304] [restartedMain] [34mINFO [0;39m o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]     : Initializing Spring embedded WebApplicationContext 
-[2022-07-23 00:21:14,305] [restartedMain] [34mINFO [0;39m o.s.b.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1446 ms 
-[2022-07-23 00:21:14,447] [restartedMain] [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper                    : HHH000204: Processing PersistenceUnitInfo [name: default] 
-[2022-07-23 00:21:14,502] [restartedMain] [34mINFO [0;39m org.hibernate.Version                                        : HHH000412: Hibernate ORM core version 5.6.5.Final 
+[2022-07-23 00:25:55,493] [restartedMain] INFO  c.b.s.backend.apirest.SpringBootBackendApirestApplication    : Starting SpringBootBackendApirestApplication using Java 16.0.2 on DESKTOP-EGDL8Q6 with PID 2604 (M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback\target\classes started by USUARIO in M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback) 
+[2022-07-23 00:25:55,493] [background-preinit] INFO  org.hibernate.validator.internal.util.Version                : HV000001: Hibernate Validator 6.2.2.Final 
+[2022-07-23 00:25:55,496] [restartedMain] INFO  c.b.s.backend.apirest.SpringBootBackendApirestApplication    : No active profile set, falling back to 1 default profile: "default" 
+[2022-07-23 00:25:55,540] [restartedMain] INFO  o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[2022-07-23 00:25:55,540] [restartedMain] INFO  o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[2022-07-23 00:25:56,211] [restartedMain] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate   : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[2022-07-23 00:25:56,253] [restartedMain] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate   : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces. 
+[2022-07-23 00:25:56,931] [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+[2022-07-23 00:25:56,939] [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol                   : Initializing ProtocolHandler ["http-nio-8080"] 
+[2022-07-23 00:25:56,940] [restartedMain] INFO  org.apache.catalina.core.StandardService                     : Starting service [Tomcat] 
+[2022-07-23 00:25:56,940] [restartedMain] INFO  org.apache.catalina.core.StandardEngine                      : Starting Servlet engine: [Apache Tomcat/9.0.58] 
+[2022-07-23 00:25:57,010] [restartedMain] INFO  o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]     : Initializing Spring embedded WebApplicationContext 
+[2022-07-23 00:25:57,011] [restartedMain] INFO  o.s.b.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1470 ms 
+[2022-07-23 00:25:57,142] [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper                    : HHH000204: Processing PersistenceUnitInfo [name: default] 
+[2022-07-23 00:25:57,211] [restartedMain] INFO  org.hibernate.Version                                        : HHH000412: Hibernate ORM core version 5.6.5.Final 
+[2022-07-23 00:25:57,355] [restartedMain] INFO  org.hibernate.annotations.common.Version                     : HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[2022-07-23 00:25:57,455] [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                           : HikariPool-1 - Starting... 
+[2022-07-23 00:25:57,585] [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                           : HikariPool-1 - Start completed. 
+[2022-07-23 00:25:57,595] [restartedMain] INFO  org.hibernate.dialect.Dialect                                : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[2022-07-23 00:25:58,008] [restartedMain] DEBUG org.hibernate.SQL                                            : 
+    
+    drop table if exists clientes 
+[2022-07-23 00:25:58,022] [restartedMain] DEBUG org.hibernate.SQL                                            : 
+    
+    create table clientes (
+       id bigint not null auto_increment,
+        apellido varchar(255) not null,
+        create_at date,
+        email varchar(255) not null,
+        nombre varchar(12) not null,
+        primary key (id)
+    ) engine=InnoDB 
+[2022-07-23 00:25:58,093] [restartedMain] DEBUG org.hibernate.SQL                                            : 
+    
+    alter table clientes 
+       add constraint UK_1c96wv36rk2hwui7qhjks3mvg unique (email) 
+[2022-07-23 00:25:58,118] [restartedMain] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl         : HHH000476: Executing import script 'file:/M:/PROGRAMACION/DESARROLLO_JAVA_SPRING/INTELLIJ_IDEA/11.youtube_code_java/01.logback_rolling_file/spring-boot-logback/target/classes/import.sql' 
