@@ -1,0 +1,26 @@
+2022-07-22 22:58:58,507 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Linus', 'Torvalds', 'linus.torvalds@gmail.com', '2018-01-03') 
+2022-07-22 22:58:58,509 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Rasmus', 'Lerdorf', 'rasmus.lerdorf@gmail.com', '2018-01-04') 
+2022-07-22 22:58:58,511 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Erich', 'Gamma', 'erich.gamma@gmail.com', '2018-02-01') 
+2022-07-22 22:58:58,512 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Richard', 'Helm', 'richard.helm@gmail.com', '2018-02-10') 
+2022-07-22 22:58:58,513 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Ralph', 'Johnson', 'ralph.johnson@gmail.com', '2018-02-18') 
+2022-07-22 22:58:58,514 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('John', 'Vlissides', 'john.vlissides@gmail.com', '2018-02-28') 
+2022-07-22 22:58:58,515 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Dr. James', 'Gosling', 'james.gosling@gmail.com', '2018-03-03') 
+2022-07-22 22:58:58,516 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Magma', 'Lee', 'magma.lee@gmail.com', '2018-03-04') 
+2022-07-22 22:58:58,517 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Tornado', 'Roe', 'tornado.roe@gmail.com', '2018-03-05') 
+2022-07-22 22:58:58,518 [restartedMain] DEBUG org.hibernate.SQL                                  : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Jade', 'Doe', 'jane.doe@gmail.com', '2018-03-06') 
+2022-07-22 22:58:58,520 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2022-07-22 22:58:58,525 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-07-22 22:58:58,822 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2022-07-22 22:58:59,099 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 : LiveReload server is running on port 35729 
+2022-07-22 22:58:59,150 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            : Tomcat started on port(s): 8080 (http) with context path '' 
+2022-07-22 22:58:59,158 [restartedMain] INFO  c.b.s.b.a.SpringBootBackendApirestApplication      : Started SpringBootBackendApirestApplication in 3.521 seconds (JVM running for 4.022) 
