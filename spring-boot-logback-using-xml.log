@@ -1,0 +1,86 @@
+[2022-07-23 00:21:15,509] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Dr. James', 'Gosling', 'james.gosling@gmail.com', '2018-03-03') 
+[2022-07-23 00:21:15,516] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Magma', 'Lee', 'magma.lee@gmail.com', '2018-03-04') 
+[2022-07-23 00:21:15,520] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Tornado', 'Roe', 'tornado.roe@gmail.com', '2018-03-05') 
+[2022-07-23 00:21:15,523] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Jade', 'Doe', 'jane.doe@gmail.com', '2018-03-06') 
+[2022-07-23 00:21:15,528] [restartedMain] [34mINFO [0;39m o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[2022-07-23 00:21:15,539] [restartedMain] [34mINFO [0;39m o.s.orm.jpa.LocalContainerEntityManagerFactoryBean           : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[2022-07-23 00:21:15,839] [restartedMain] [31mWARN [0;39m o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration     : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[2022-07-23 00:21:16,165] [restartedMain] [34mINFO [0;39m o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer     : LiveReload server is running on port 35729 
+[2022-07-23 00:21:16,177] [restartedMain] [34mINFO [0;39m org.apache.coyote.http11.Http11NioProtocol                   : Starting ProtocolHandler ["http-nio-8080"] 
+[2022-07-23 00:21:16,214] [restartedMain] [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '' 
+[2022-07-23 00:21:16,222] [restartedMain] [34mINFO [0;39m c.b.s.backend.apirest.SpringBootBackendApirestApplication    : Started SpringBootBackendApirestApplication in 3.833 seconds (JVM running for 4.506) 
+[2022-07-23 00:22:02,220] [Thread-5] [34mINFO [0;39m o.s.orm.jpa.LocalContainerEntityManagerFactoryBean           : Closing JPA EntityManagerFactory for persistence unit 'default' 
+[2022-07-23 00:22:02,221] [Thread-5] [34mINFO [0;39m o.h.t.s.internal.SchemaDropperImpl$DelayedDropActionImpl     : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+[2022-07-23 00:22:02,223] [Thread-5] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    
+    drop table if exists clientes 
+[2022-07-23 00:22:02,233] [Thread-5] [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource                           : HikariPool-1 - Shutdown initiated... 
+[2022-07-23 00:22:02,240] [Thread-5] [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource                           : HikariPool-1 - Shutdown completed. 
+[2022-07-23 00:22:02,340] [restartedMain] [34mINFO [0;39m c.b.s.backend.apirest.SpringBootBackendApirestApplication    : Starting SpringBootBackendApirestApplication using Java 16.0.2 on DESKTOP-EGDL8Q6 with PID 14568 (M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback\target\classes started by USUARIO in M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback) 
+[2022-07-23 00:22:02,341] [restartedMain] [34mINFO [0;39m c.b.s.backend.apirest.SpringBootBackendApirestApplication    : No active profile set, falling back to 1 default profile: "default" 
+[2022-07-23 00:22:02,730] [restartedMain] [34mINFO [0;39m o.s.data.repository.config.RepositoryConfigurationDelegate   : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[2022-07-23 00:22:02,738] [restartedMain] [34mINFO [0;39m o.s.data.repository.config.RepositoryConfigurationDelegate   : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces. 
+[2022-07-23 00:22:02,875] [restartedMain] [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http) 
+[2022-07-23 00:22:02,876] [restartedMain] [34mINFO [0;39m org.apache.coyote.http11.Http11NioProtocol                   : Initializing ProtocolHandler ["http-nio-8080"] 
+[2022-07-23 00:22:02,876] [restartedMain] [34mINFO [0;39m org.apache.catalina.core.StandardService                     : Starting service [Tomcat] 
+[2022-07-23 00:22:02,876] [restartedMain] [34mINFO [0;39m org.apache.catalina.core.StandardEngine                      : Starting Servlet engine: [Apache Tomcat/9.0.58] 
+[2022-07-23 00:22:02,898] [restartedMain] [34mINFO [0;39m o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]     : Initializing Spring embedded WebApplicationContext 
+[2022-07-23 00:22:02,899] [restartedMain] [34mINFO [0;39m o.s.b.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 554 ms 
+[2022-07-23 00:22:02,945] [restartedMain] [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper                    : HHH000204: Processing PersistenceUnitInfo [name: default] 
+[2022-07-23 00:22:02,949] [restartedMain] [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource                           : HikariPool-2 - Starting... 
+[2022-07-23 00:22:02,954] [restartedMain] [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource                           : HikariPool-2 - Start completed. 
+[2022-07-23 00:22:02,955] [restartedMain] [34mINFO [0;39m org.hibernate.dialect.Dialect                                : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[2022-07-23 00:22:02,992] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    
+    drop table if exists clientes 
+[2022-07-23 00:22:02,994] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    
+    create table clientes (
+       id bigint not null auto_increment,
+        apellido varchar(255) not null,
+        create_at date,
+        email varchar(255) not null,
+        nombre varchar(12) not null,
+        primary key (id)
+    ) engine=InnoDB 
+[2022-07-23 00:22:03,051] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    
+    alter table clientes 
+       add constraint UK_1c96wv36rk2hwui7qhjks3mvg unique (email) 
+[2022-07-23 00:22:03,064] [restartedMain] [34mINFO [0;39m org.hibernate.tool.schema.internal.SchemaCreatorImpl         : HHH000476: Executing import script 'file:/M:/PROGRAMACION/DESARROLLO_JAVA_SPRING/INTELLIJ_IDEA/11.youtube_code_java/01.logback_rolling_file/spring-boot-logback/target/classes/import.sql' 
+[2022-07-23 00:22:03,064] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Andrés', 'Guzmán', 'profesor@bolsadeideas.com', '2018-01-01') 
+[2022-07-23 00:22:03,065] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Mr. John', 'Doe', 'john.doe@gmail.com', '2018-01-02') 
+[2022-07-23 00:22:03,067] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Linus', 'Torvalds', 'linus.torvalds@gmail.com', '2018-01-03') 
+[2022-07-23 00:22:03,069] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Rasmus', 'Lerdorf', 'rasmus.lerdorf@gmail.com', '2018-01-04') 
+[2022-07-23 00:22:03,071] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Erich', 'Gamma', 'erich.gamma@gmail.com', '2018-02-01') 
+[2022-07-23 00:22:03,072] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Richard', 'Helm', 'richard.helm@gmail.com', '2018-02-10') 
+[2022-07-23 00:22:03,074] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Ralph', 'Johnson', 'ralph.johnson@gmail.com', '2018-02-18') 
+[2022-07-23 00:22:03,076] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('John', 'Vlissides', 'john.vlissides@gmail.com', '2018-02-28') 
+[2022-07-23 00:22:03,086] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Dr. James', 'Gosling', 'james.gosling@gmail.com', '2018-03-03') 
+[2022-07-23 00:22:03,087] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Magma', 'Lee', 'magma.lee@gmail.com', '2018-03-04') 
+[2022-07-23 00:22:03,089] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Tornado', 'Roe', 'tornado.roe@gmail.com', '2018-03-05') 
+[2022-07-23 00:22:03,091] [restartedMain] [39mDEBUG[0;39m org.hibernate.SQL                                            : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Jade', 'Doe', 'jane.doe@gmail.com', '2018-03-06') 
+[2022-07-23 00:22:03,092] [restartedMain] [34mINFO [0;39m o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[2022-07-23 00:22:03,093] [restartedMain] [34mINFO [0;39m o.s.orm.jpa.LocalContainerEntityManagerFactoryBean           : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[2022-07-23 00:22:03,165] [restartedMain] [31mWARN [0;39m o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration     : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[2022-07-23 00:22:03,282] [restartedMain] [34mINFO [0;39m o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer     : LiveReload server is running on port 35729 
+[2022-07-23 00:22:03,287] [restartedMain] [34mINFO [0;39m org.apache.coyote.http11.Http11NioProtocol                   : Starting ProtocolHandler ["http-nio-8080"] 
+[2022-07-23 00:22:03,290] [restartedMain] [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path '' 
+[2022-07-23 00:22:03,294] [restartedMain] [34mINFO [0;39m c.b.s.backend.apirest.SpringBootBackendApirestApplication    : Started SpringBootBackendApirestApplication in 1.0 seconds (JVM running for 51.579) 
+[2022-07-23 00:22:03,296] [restartedMain] [34mINFO [0;39m o.s.b.d.a.ConditionEvaluationDeltaLoggingListener            : Condition evaluation unchanged 
