@@ -1,0 +1,77 @@
+2022-07-22 19:55:51.807  INFO 14120 --- [restartedMain] .b.a.SpringBootBackendApirestApplication : Starting SpringBootBackendApirestApplication using Java 16.0.2 on DESKTOP-EGDL8Q6 with PID 14120 (M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback\target\classes started by USUARIO in M:\PROGRAMACION\DESARROLLO_JAVA_SPRING\INTELLIJ_IDEA\11.youtube_code_java\01.logback_rolling_file\spring-boot-logback)
+2022-07-22 19:55:51.808  INFO 14120 --- [restartedMain] .b.a.SpringBootBackendApirestApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-22 19:55:51.861  INFO 14120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-22 19:55:51.862  INFO 14120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-22 19:55:52.518  INFO 14120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-22 19:55:52.559  INFO 14120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-07-22 19:55:53.138  INFO 14120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-22 19:55:53.146  INFO 14120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-22 19:55:53.146  INFO 14120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-22 19:55:53.314  INFO 14120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-22 19:55:53.314  INFO 14120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1451 ms
+2022-07-22 19:55:53.461  INFO 14120 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-22 19:55:53.497  INFO 14120 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-22 19:55:53.616  INFO 14120 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-22 19:55:53.697  INFO 14120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-22 19:55:53.808  INFO 14120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-22 19:55:53.818  INFO 14120 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-22 19:55:54.281 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists clientes
+2022-07-22 19:55:54.298 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table clientes (
+       id bigint not null auto_increment,
+        apellido varchar(255) not null,
+        create_at date,
+        email varchar(255) not null,
+        nombre varchar(12) not null,
+        primary key (id)
+    ) engine=InnoDB
+2022-07-22 19:55:54.335 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    alter table clientes 
+       add constraint UK_1c96wv36rk2hwui7qhjks3mvg unique (email)
+2022-07-22 19:55:54.379  INFO 14120 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'file:/M:/PROGRAMACION/DESARROLLO_JAVA_SPRING/INTELLIJ_IDEA/11.youtube_code_java/01.logback_rolling_file/spring-boot-logback/target/classes/import.sql'
+2022-07-22 19:55:54.381 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Andrés', 'Guzmán', 'profesor@bolsadeideas.com', '2018-01-01')
+2022-07-22 19:55:54.387 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Mr. John', 'Doe', 'john.doe@gmail.com', '2018-01-02')
+2022-07-22 19:55:54.393 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Linus', 'Torvalds', 'linus.torvalds@gmail.com', '2018-01-03')
+2022-07-22 19:55:54.400 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Rasmus', 'Lerdorf', 'rasmus.lerdorf@gmail.com', '2018-01-04')
+2022-07-22 19:55:54.407 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Erich', 'Gamma', 'erich.gamma@gmail.com', '2018-02-01')
+2022-07-22 19:55:54.414 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Richard', 'Helm', 'richard.helm@gmail.com', '2018-02-10')
+2022-07-22 19:55:54.419 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Ralph', 'Johnson', 'ralph.johnson@gmail.com', '2018-02-18')
+2022-07-22 19:55:54.425 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('John', 'Vlissides', 'john.vlissides@gmail.com', '2018-02-28')
+2022-07-22 19:55:54.431 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Dr. James', 'Gosling', 'james.gosling@gmail.com', '2018-03-03')
+2022-07-22 19:55:54.437 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Magma', 'Lee', 'magma.lee@gmail.com', '2018-03-04')
+2022-07-22 19:55:54.444 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Tornado', 'Roe', 'tornado.roe@gmail.com', '2018-03-05')
+2022-07-22 19:55:54.450 DEBUG 14120 --- [restartedMain] org.hibernate.SQL                        : 
+    INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Jade', 'Doe', 'jane.doe@gmail.com', '2018-03-06')
+2022-07-22 19:55:54.459  INFO 14120 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-22 19:55:54.482  INFO 14120 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-22 19:55:54.796  WARN 14120 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-22 19:55:55.183  INFO 14120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-22 19:55:55.240  INFO 14120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-22 19:55:55.250  INFO 14120 --- [restartedMain] .b.a.SpringBootBackendApirestApplication : Started SpringBootBackendApirestApplication in 3.82 seconds (JVM running for 4.287)
+2022-07-22 19:56:11.075  INFO 14120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-22 19:56:11.075  INFO 14120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-22 19:56:11.076  INFO 14120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-22 19:56:11.192 DEBUG 14120 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        cliente0_.id as id1_0_,
+        cliente0_.apellido as apellido2_0_,
+        cliente0_.create_at as create_a3_0_,
+        cliente0_.email as email4_0_,
+        cliente0_.nombre as nombre5_0_ 
+    from
+        clientes cliente0_
